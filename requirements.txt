@@ -1,0 +1,8 @@
+streamlit
+youtube-transcript-api
+pandas
+numpy
+scikit-learn
+spacy
+openai
+watchdog
