@@ -1,138 +1,109 @@
-# 🎬 Video Intelligence AI
+🎬 Vista – Video Intelligence AI
 
-**Video Intelligence AI** is a modern web application designed to analyze video content, extract transcripts, and generate **AI-powered insights instantly**.
-The application leverages **DeepSeek LLM** to produce comprehensive summaries, topic clustering, and key highlights from **YouTube videos** or **uploaded transcript files**.
+Vista is a modern web application designed to analyze video content, extract transcripts, and generate AI-powered insights instantly.
+The application leverages DeepSeek LLM to produce comprehensive summaries, topic clustering, and key highlights from YouTube videos or uploaded transcript files.
 
-This project was developed as a **Graduation Project**, aiming to demonstrate the practical integration of **Large Language Models (LLMs)** with **video data processing** and **natural language understanding**.
+This project was developed as a Graduation Project, aiming to demonstrate the practical integration of Large Language Models (LLMs) with video data processing and natural language understanding.
 
----
+🚀 Key Features
+📺 YouTube Integration
 
-## 🚀 Key Features
+Extracts metadata and time-stamped transcripts directly from YouTube URLs
 
-### 📺 YouTube Integration
+No need to download the video file
 
-* Extracts **metadata** and **time-stamped transcripts** directly from YouTube URLs
-* No need to download the video file
+📂 File Support
 
-### 📂 File Support
+Supports manual upload of .txt transcript files
 
-* Supports manual upload of `.txt` transcript files
-* Enables **offline analysis**
+Enables offline analysis
 
-### 🧠 AI-Powered Analysis (DeepSeek)
+🧠 AI-Powered Analysis (DeepSeek)
 
-* **Executive Summary** – Concise overview of video content
-* **Topic Clustering** – Groups and categorizes main discussion topics
-* **Key Highlights** – Extracts the most impactful sentences and quotes
+Executive Summary – Concise overview of video content
 
-### 🎨 Modern User Interface
+Topic Clustering – Groups and categorizes main discussion topics
 
-* Built with **Streamlit**
-* Clean, responsive design with **Dark Mode** support
+Key Highlights – Extracts the most impactful sentences and quotes
 
-### ⬇️ Data Export
+🎨 Modern User Interface
 
-* Download processed transcripts and AI outputs as `.txt` files
+Built with Streamlit
 
----
+Clean, responsive design with Dark Mode support
 
-## 🛠️ Tech Stack
+⬇️ Data Export
 
-| Technology      | Description                                       |
-| --------------- | ------------------------------------------------- |
-| **Python**      | Core backend logic and data processing            |
-| **Streamlit**   | Frontend framework for rapid web app development  |
-| **yt-dlp**      | Extracts YouTube metadata and transcripts         |
-| **OpenAI SDK**  | Client for interacting with the DeepSeek API      |
-| **DeepSeek V3** | Large Language Model (LLM) used for text analysis |
-| **Regex**       | Text pattern matching and HTML formatting         |
+Download processed transcripts and AI outputs as .txt files
 
----
-## ⚙️ Installation & Setup
+🛠️ Tech Stack
+Technology	Description
+Python	Core backend logic and data processing
+Streamlit	Frontend framework for rapid web app development
+yt-dlp	Extracts YouTube metadata and transcripts
+OpenAI SDK	Client for interacting with the DeepSeek API
+DeepSeek V3	Large Language Model (LLM) used for text analysis
+Regex	Text pattern matching and HTML formatting
+⚙️ Installation & Setup
 
 Follow the steps below to run the project locally.
 
-### 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
+git clone https://github.com/YOUR_USERNAME/vista-video-intelligence-ai.git
+cd vista-video-intelligence-ai
 
-```bash
-git clone https://github.com/YOUR_USERNAME/video-intelligence-ai.git
-cd video-intelligence-ai
-```
+2️⃣ Create a Virtual Environment (Recommended)
 
----
+Windows
 
-### 2️⃣ Create a Virtual Environment (Recommended)
-
-**Windows**
-
-```bash
 python -m venv venv
 venv\Scripts\activate
-```
 
-**Mac / Linux**
 
-```bash
+Mac / Linux
+
 python3 -m venv venv
 source venv/bin/activate
-```
 
----
-
-### 3️⃣ Install Dependencies
-
-```bash
+3️⃣ Install Dependencies
 pip install -r requirements.txt
-```
 
----
-
-### 4️⃣ Run the Application
-
-```bash
+4️⃣ Run the Application
 streamlit run app.py
-```
 
----
+🔑 Configuration (DeepSeek API Key)
 
-## 🔑 Configuration (DeepSeek API Key)
+To enable AI-powered analysis, a valid DeepSeek API Key is required.
 
-To enable AI-powered analysis, a valid **DeepSeek API Key** is required.
+Run the application
 
-1. Run the application
-2. Open the **Sidebar** (left panel)
-3. Enter your **DeepSeek API Key** in the settings box
+Open the Sidebar (left panel)
 
-> ⚠️ **Note:**
-> The API key is **not stored permanently** and is only used for the current session.
+Enter your DeepSeek API Key in the settings box
 
----
+⚠️ Note:
+The API key is not stored permanently and is only used for the current session.
 
-## 📂 Project Structure
-
-```
-video-intelligence-ai/
+📂 Project Structure
+vista-video-intelligence-ai/
 ├── app.py                # Main application entry point (Frontend)
 ├── youtube_helper.py     # YouTube transcript extraction module
 ├── ai_helper.py          # DeepSeek API integration (AI logic)
 ├── requirements.txt      # Project dependencies
 └── README.md             # Project documentation
-```
 
----
+🎓 Academic Context
 
-## 🎓 Academic Context
+This project was developed as a Graduation Project, focusing on:
 
-This project was developed as a **Graduation Project**, focusing on:
+Real-world usage of Large Language Models
 
-* Real-world usage of **Large Language Models**
-* Video transcript processing
-* AI-based content summarization and analysis
-* Practical deployment of an interactive AI web application
+Video transcript processing
 
----
+AI-based content summarization and analysis
 
-## 📌 License
+Practical deployment of an interactive AI web application
 
-*Add license information here (e.g., MIT License).*
+📌 License
 
+Add license information here (e.g., MIT License).
