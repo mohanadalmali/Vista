@@ -56,8 +56,8 @@ Follow the steps below to run the project locally.
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/vista-video-intelligence-ai.git
-cd vista-video-intelligence-ai
+git clone https://github.com/YOUR_USERNAME/vista.git
+cd vista
 ```
 
 ---
