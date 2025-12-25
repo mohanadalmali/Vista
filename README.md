@@ -1,8 +1,3 @@
-Aşağıda verdiğin içeriği **GitHub README.md** için **profesyonel, temiz ve akademik proje seviyesinde** yeniden düzenledim.
-Direkt **kopyala–yapıştır** yapıp kullanabilirsin.
-
----
-
 # 🎬 Video Intelligence AI
 
 **Video Intelligence AI** is a modern web application designed to analyze video content, extract transcripts, and generate **AI-powered insights instantly**.
